@@ -12,9 +12,6 @@ let lowerCaseMovie = userMovie.toLowerCase();
 
 
 
-
-
-
 let response;
 
 if (userMovie === "batman") {
@@ -29,7 +26,3 @@ console.log("Welcome, and ", greeting);
 
 document.write("Hello " + userName + " " + greeting);
 
-// out put that information that was asked for or, just notify them of something.
-if (baseBallTeam === 'Cubs') {
-    greeting = 'Yes this is the best team ever!';
-}
