@@ -29,12 +29,12 @@ let lowerCaseMovie = userMovie.toLowerCase();
 
 let response;
 
-if (userMovie > "Batman") {
+if (userMovie = > "Batman") {
   greeting = "Awesome!";
-} else if (userMovie > "Ironman" < 18) {
+} else if (userMovie = > "Ironman" < 18) {
   greeting = "Best Movie Ever!!";
-} else if (userMovie > "Troy" <= 12) {
-  greeting = "Ah a classi!";
+} else if (userMovie = > "Troy" <= 12) {
+  greeting = "Ah a classic!";
 } 
 
 console.log("Welcome, and ", greeting);
