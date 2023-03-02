@@ -11,7 +11,7 @@ console.log()
 let lowerCaseMovie = userMovie.toLowerCase();
 
 
-
+function getMovieName() {
 let response;
 
 if (userMovie === "batman") {
@@ -20,9 +20,10 @@ if (userMovie === "batman") {
     response = "Best Movie Ever!!";
 } else if (userMovie === "troy") {
     response = "Ah a classic!";
+} else {
+    response = "Great Choice!";
 }
-
-console.log("Welcome, and ", greeting);
-
-document.write("Hello " + userName + " " + greeting);
+console.log("response", response);
+return response;
+}
 
