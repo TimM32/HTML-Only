@@ -6,8 +6,10 @@ let userName = prompt("What is your name?");
 console.log("user name: ", userName);
 let confirmMessage = confirm("Do you want to continue?");
 console.log("confirm message: ", confirmMessage);
-let userTime = prompt("What time is it, use Military time. But just first two digits.");
-console.log("Military time: ", userTime);
+let userMovie = prompt("What's your favorite movie?");
+let lowerCaseMovie = userMovie.toLowerCase();
+
+
 
 //process that information given to us from the user
 //if else conditional and 
@@ -22,23 +24,19 @@ console.log("Military time: ", userTime);
 // }
 
 //conditional logic
-let todaysDate = new Date();
-console.log("Date: ", todaysDate);
 
-let hourNow = todaysDate.getHours();
 
-let greeting;
 
-console.log("what time is it now.", hourNow);
-if (userTime > 18 && userTime < 24) {
-  greeting = "Good Evening";
-} else if (userTime > 12 && userTime < 18) {
-  greeting = "Good Afternoon";
-} else if (userTime > 6 && userTime <= 12) {
-  greeting = "Good Morning!";
-} else {
-  greeting = "Go to BED!";
-}
+let response;
+
+if (userMovie > "Batman") {
+  greeting = "Awesome!";
+} else if (userMovie > "Ironman" < 18) {
+  greeting = "Best Movie Ever!!";
+} else if (userMovie > "Troy" <= 12) {
+  greeting = "Ah a classi!";
+} 
+
 console.log("Welcome, and ", greeting);
 
 document.write("Hello " + userName + " " + greeting);
