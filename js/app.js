@@ -11,37 +11,24 @@ let lowerCaseMovie = userMovie.toLowerCase();
 
 
 
-//process that information given to us from the user
-//if else conditional and 
-// if(condition is true or false){
-//     do this
-// } else if(condition is true or false){
-//     do this
-// } else if(condition is true or false){
-//   do this
-// }else {
-// do this last one
-// }
-
-//conditional logic
 
 
 
 let response;
 
-if (userMovie = > "Batman") {
-  greeting = "Awesome!";
-} else if (userMovie = > "Ironman" < 18) {
-  greeting = "Best Movie Ever!!";
-} else if (userMovie = > "Troy" <= 12) {
-  greeting = "Ah a classic!";
-} 
+if (userMovie === "batman") {
+    greeting = "Awesome!";
+} else if (userMovie === "ironman" < 18) {
+    greeting = "Best Movie Ever!!";
+} else if (userMovie === "troy" <= 12) {
+    greeting = "Ah a classic!";
+}
 
 console.log("Welcome, and ", greeting);
 
 document.write("Hello " + userName + " " + greeting);
 
 // out put that information that was asked for or, just notify them of something.
-if(baseBallTeam === 'Cubs'){
-  greeting = 'Yes this is the best team ever!';
+if (baseBallTeam === 'Cubs') {
+    greeting = 'Yes this is the best team ever!';
 }
