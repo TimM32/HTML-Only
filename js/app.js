@@ -15,11 +15,11 @@ let lowerCaseMovie = userMovie.toLowerCase();
 let response;
 
 if (userMovie === "batman") {
-    greeting = "Awesome!";
+    response = "Awesome!";
 } else if (userMovie === "ironman") {
-    greeting = "Best Movie Ever!!";
+    response = "Best Movie Ever!!";
 } else if (userMovie === "troy") {
-    greeting = "Ah a classic!";
+    response = "Ah a classic!";
 }
 
 console.log("Welcome, and ", greeting);
