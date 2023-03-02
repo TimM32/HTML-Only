@@ -16,9 +16,9 @@ let response;
 
 if (userMovie === "batman") {
     greeting = "Awesome!";
-} else if (userMovie === "ironman" < 18) {
+} else if (userMovie === "ironman") {
     greeting = "Best Movie Ever!!";
-} else if (userMovie === "troy" <= 12) {
+} else if (userMovie === "troy") {
     greeting = "Ah a classic!";
 }
 
