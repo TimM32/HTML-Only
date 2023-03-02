@@ -12,6 +12,7 @@ let lowerCaseMovie = userMovie.toLowerCase();
 
 
 function getMovieName() {
+let userMovie = prompt("what's your favorite movie?")    
 let response;
 
 if (userMovie === "batman") {
