@@ -7,7 +7,7 @@ console.log("user name: ", userName);
 let confirmMessage = confirm("Do you want to continue?");
 console.log("confirm message: ", confirmMessage);
 
-getMovieName();
+let response = getMovieName();
 
 function getMovieName() {
     let userMovie = prompt("what's your favorite movie?");
@@ -26,5 +26,5 @@ function getMovieName() {
     console.log("response", response);
     return response;
 }
-
+document.write(response);
 
