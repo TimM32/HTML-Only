@@ -6,12 +6,12 @@ let userName = prompt("What is your name?");
 console.log("user name: ", userName);
 let confirmMessage = confirm("Do you want to continue?");
 console.log("confirm message: ", confirmMessage);
-let lowerCaseMovie = userMovie.toLowerCase();
 
 getMovieName();
 
 function getMovieName() {
     let userMovie = prompt("what's your favorite movie?");
+    userMovie = userMovie.toLowerCase();
     let response;
 
     if (userMovie === "batman") {
